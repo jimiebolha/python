@@ -1,5 +1,6 @@
 num = int(input("Digite um numero: "))
-i = 1
+i = 0
 while i <= num:
-	print (i)
+	if i % 2 == 0:
+		print (i)
 	i = i + 1 
